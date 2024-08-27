@@ -3,6 +3,86 @@
 
 @string{aps = {American Physical Society,}}
 
+@article{ALKILANE2024102589,
+title = {MixMamba: Time series modeling with adaptive expertise},
+journal = {Information Fusion},
+volume = {112},
+pages = {102589},
+year = {2024},
+issn = {1566-2535},
+doi = {https://doi.org/10.1016/j.inffus.2024.102589},
+url = {https://www.sciencedirect.com/science/article/pii/S1566253524003671},
+author = {Khaled Alkilane and Yihang He and Der-Horng Lee},
+keywords = {Time series modeling, Mixture-of-experts, Multivariate time series forecasting},
+abstract = {From finance and healthcare to transportation and beyond, effective time series modeling underpins a wide range of applications. While transformers have achieved success, their reliance on global context limits scalability for lengthy sequences due to the quadratic increase in computational cost with sequence length. Recent research suggests linear models can achieve comparable performance with lower complexity. However, the heterogeneity and non-stationary characteristics of time series data continue to challenge single models’ ability to capture complex temporal dynamics, especially in long-term forecasting. This paper proposes MixMamba, a novel framework for time series modeling applicable across diverse domains. The framework leverages the content-based reasoning strengths of the Mamba model by integrating it as an expert within a mixture-of-experts (MoE) framework. This framework decomposes modeling into a pool of specialized experts, enabling the model to learn robust representations and capture the full spectrum of patterns present in time series data. Furthermore, a dynamic gating network is introduced within the framework. This network adaptively allocates each data segment to the most suitable expert based on its characteristics. This is crucial in non-stationary time series, as it allows the model to adjust dynamically to temporal changes in the underlying data distribution. To prevent bias towards a limited subset of experts, a load balancing loss function is incorporated. Extensive experiments on benchmark datasets demonstrate the effectiveness and robustness of our proposed method in various time series modeling tasks, including long-term and short-term forecasting, as well as classification.}
+}
+
+@article{KHALED2024111913,
+title = {A graph-based approach for traffic prediction using similarity and causal relations between nodes},
+journal = {Knowledge-Based Systems},
+volume = {296},
+pages = {111913},
+year = {2024},
+issn = {0950-7051},
+doi = {https://doi.org/10.1016/j.knosys.2024.111913},
+url = {https://www.sciencedirect.com/science/article/pii/S0950705124005471},
+author = {Khaled Alkilane and Alfateh M. Tag Elsir and Pengfei Wang and Yanming Shen and Qiang Zhang},
+keywords = {Traffic prediction, Spatial–temporal correlations, Graph neural networks, Traffic similarity},
+abstract = {Accurate traffic prediction is crucial for the development of intelligent transportation systems (ITS) and various smart applications. To achieve this, effectively capturing the complex interplay between spatial and temporal dependencies across traffic nodes is essential. However, existing research often focuses solely on fixed spatial dependencies between neighboring nodes, neglecting the potential influence of distant nodes. This paper addresses these limitations by exploring two key types of relationships among traffic nodes. First, we examine indirect relationships based on similarity, where nodes exhibit similar traffic patterns irrespective of their physical proximity. Second, we investigate direct causal relationships, where traffic conditions at one node are directly influenced by other nodes. Based on these findings, we propose a novel approach named TPSC (Traffic Prediction using nodes Similarity and Causal relations). TPSC incorporates a classifier that utilizes the K-Prototype algorithm to group nodes based on their traffic similarity and nearby points of interest (POIs). Separate models are then trained for each cluster. Our model leverages a spatial module that employs graph convolutional network representation learning alongside transfer entropy to capture causal relationships and dynamic spatial dependencies. Additionally, a temporal module is introduced to capture periodic temporal dependencies across three components: recent patterns, daily patterns, and weekly patterns. Extensive experiments are conducted to evaluate proposed model on four large-scale traffic datasets for multiple traffic characteristics including speed, flow, and travel time. The experimental results demonstrate that TPSC surpasses the performance of the compared baselines, highlighting its superior predictive capabilities in traffic prediction.}
+}
+
+@article{TAGELSIR2023120502,
+title = {HLGST: Hybrid local–global spatio-temporal model for travel time estimation using Siamese graph convolutional with triplet networks},
+journal = {Expert Systems with Applications},
+volume = {229},
+pages = {120502},
+year = {2023},
+issn = {0957-4174},
+doi = {https://doi.org/10.1016/j.eswa.2023.120502},
+url = {https://www.sciencedirect.com/science/article/pii/S0957417423010047},
+author = {Alfateh M. {Tag Elsir} and Khaled Alkilane and Yanming Shen},
+keywords = {Travel time estimation, Graph convolution network, Spatio-temporal correlations, Dynamic multi-graph, Semantic graph},
+abstract = {Travel time estimation (TTE) is a crucial and challenging task due to the complex spatial and dynamic temporal correlations between local and global traffic regions. Though many existing methods have used multi-graph structures to model traffic variations, the majority of them are unable to capture such sophisticated local and global perspectives dynamically at different time-intervals. Furthermore, these methods have used shallow graphs (i.e., based on speed or distance between traffic nodes), thereby limiting their ability to learn the latent dependencies. To overcome these limitations, we propose a novel Hybrid Local-Global Spatio-Temporal (HLGST) framework for TTE. Specifically, we first introduce a dynamic composition unit that builds local traffic information and multi-dynamic semantic graphs based on the similarities between nodes. Then, the HLGST model learns the local and global dependencies via hybrid correlation method. It mainly comprises two modules: (1) local correlation module that integrates casual TCN layers with a self-attention mechanism to capture local dependencies of traffic patterns; (2) triplet-siamese GCN (TS-GCN) module that is employed to smoothly capture global dependencies based on triplet relationships between multi-dynamical semantic graphs. Moreover, we build a dynamic adaptive learning algorithm to transfer the gained knowledge and leverage it to model multi-objective prediction tasks collaboratively. Extensive experiments conducted on two real-world traffic datasets (Xi’an and Chengdu) demonstrate that our HLGST model outperforms compared baselines and achieves significant improvement.}
+}
+
+@INPROCEEDINGS{10191875,
+  author={Elsir Alfateh M. Tag and Khaled Alkilane and Shen Yanming},
+  booktitle={2023 International Joint Conference on Neural Networks (IJCNN)}, 
+  title={Triplet-contrastive Periodical Siamese Graph Networks for Travel Time Estimation}, 
+  year={2023},
+  volume={},
+  number={},
+  pages={1-8},
+  keywords={Correlation;Roads;Semantics;Estimation;Traffic control;Predictive models;Feature extraction;Contrasitve Learning;Siamese Graph Networks;Spatial-Temporal Correlations;Travel-Time Estimation},
+  doi={10.1109/IJCNN54540.2023.10191875}}
+
+@article{tag_elsir2023sttg,
+  author    = {Alfateh M. Tag Elsir and Khaled Alkilane and Yanming Shen},
+  title     = {STTG-TTE: Spatial–Temporal Gated Multi-Modality Approach for Travel Time Estimation Based on Temporal Convolutional Networks},
+  journal   = {Neural Computing and Applications},
+  year      = {2023},
+  volume    = {35},
+  number    = {7},
+  pages     = {5535-5551},
+  abstract  = {Travel time forecasting has become a core component of smart transportation systems, which assists both travelers and traffic organizers with route planning, travel schedule optimization, and more.},
+  doi       = {10.1007/s00521-022-07977-w},
+  url       = {https://doi.org/10.1007/s00521-022-07977-w}
+}
+
+@article{alkilane2023travel,
+  author    = {Khaled Alkilane and M. Tag Elsir Alfateh and Yanming Shen},
+  title     = {Travel Time Prediction Based on Route Links’ Similarity},
+  journal   = {Neural Computing and Applications},
+  year      = {2023},
+  volume    = {35},
+  number    = {5},
+  pages     = {3991-4007},
+  abstract  = {Accurate travel time prediction allows passengers to schedule their journeys efficiently. However, cyclical factors (time intervals of the day, weather conditions, and holidays), unpredictable factors (incidents, abnormal weather), and other complex factors can affect accuracy.},
+  doi       = {10.1007/s00521-022-07926-7},
+  url       = {https://doi.org/10.1007/s00521-022-07926-7}
+}
+
+
 @article{KHALED2022108990,
 title = {TFGAN: Traffic forecasting using generative adversarial network with multi-graph convolutional network},
 journal = {Knowledge-Based Systems},
@@ -12,118 +92,34 @@ year = {2022},
 issn = {0950-7051},
 doi = {https://doi.org/10.1016/j.knosys.2022.108990},
 url = {https://www.sciencedirect.com/science/article/pii/S0950705122004804},
-author = {Alkilane Khaled and Alfateh M. Tag Elsir and Yanming Shen},
+author = {Khaled Alkilane and Alfateh M. Tag Elsir and Yanming Shen},
 keywords = {Traffic forecasting, Multivariate time series, Generative adversarial network, Graph convolution network},
 abstract = {Traffic forecasting constitutes a task of great importance in intelligent transport systems. Owing to the non-Euclidean structure of traffic data, the complicated spatial correlations, and the dynamic temporal dependencies, it is challenging to predict traffic accurately. Despite the fact that few prior studies have considered the interconnections between multiple traffic nodes at the same timestep, the majority of studies fail to capture the dependencies among multiple nodes at different timesteps. Furthermore, most existing work generates shallow graphs based solely on the distance between traffic nodes, which limits their representation competence and declines their power in capturing complex correlations. In particular, inspired by the recent breakthroughs in the generative adversarial network (GAN) and the power of the graph convolution network (GCN) in handling non-Euclidean data, this paper puts forward an adversarial multi-graph convolutional neural network model, named TFGAN, to address the abovementioned problems. We integrate the unsupervised model elasticity with the supervision provided by supervised training to help the GAN generator model generates accurate traffic predictions. To improve the representation and model the implicit correlations effectively, multiple GCNs are constructed within the generator based on various perspectives, such as similarity, correlation, and spatial distance. Meanwhile, GRU and self-attention are applied after each graph to capture the dynamic temporal dependencies across nodes. The comprehensive experiments on three different traffic variables (traffic flow, speed, and travel time) using six real-world traffic datasets demonstrate that TFGAN outperforms the related state-of-the-art models and achieves significant results.}
 }
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@article{https://doi.org/10.1155/2022/1213221,
+author = {Tag Elsir Alfateh M. and Khaled Alkilane and Wang, Pengfei and Shen Yanming},
+title = {JSTC: Travel Time Prediction with a Joint Spatial-Temporal Correlation Mechanism},
+journal = {Journal of Advanced Transportation},
+volume = {2022},
+number = {1},
+pages = {1213221},
+doi = {https://doi.org/10.1155/2022/1213221},
+url = {https://onlinelibrary.wiley.com/doi/abs/10.1155/2022/1213221},
+eprint = {https://onlinelibrary.wiley.com/doi/pdf/10.1155/2022/1213221},
+abstract = {Accurate travel time prediction is one of the most promising intelligent transportation system (ITS) services, which can greatly support route planning, ride-sharing, navigation applications, and effective traffic management. Several factors, like spatial, temporal, and external, have big effects on traffic patterns, and therefore, it is important to develop a mechanism that can jointly capture correlations of these components. However, spatial sparsity issues make travel time prediction very challenging, especially when dealing with the origin-destination (OD) method, since the trajectory data may not be available. In this paper, we introduce a unified deep learning-based framework named joint spatial-temporal correlation (JSTC) mechanism to improve the accuracy of OD travel time prediction. First, we design a spatiotemporal correlation block that combines two modules: self-convolutional attention integrated with a temporal convolutional network (TCN) to capture the spatial correlations along with the temporal dependencies. Then, we enhance our model performance through adopting a multi-head attention module to learn the attentional weights of the spatial, temporal, and external features based on their contributions to the output and speed up the training process. Extensive experiments on three large-scale real-world traffic datasets (NYC, Chengdu, and Xi’an) show the efficiency of our model and its superiority compared to other methods.},
+year = {2022}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
-
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
-}
-
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@Article{einstein1905photoelectriceffect,
-  bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+@article{khaled2022gsta,
+  author    = {Khaled Alkilane and Alfateh M. Tag Elsir and Yanming Shen},
+  title     = {GSTA: Gated Spatial–Temporal Attention Approach for Travel Time Prediction},
+  journal   = {Neural Computing and Applications},
+  year      = {2022},
+  volume    = {34},
+  number    = {3},
+  pages     = {2307-2322},
+  abstract  = {Accurate travel time prediction between two locations is one of the most substantial services in transport. In travel time prediction, origin–destination (OD) method is more challenging since it has no intermediate trajectory information.},
+  doi       = {10.1007/s00521-021-06560-z},
+  url       = {https://doi.org/10.1007/s00521-021-06560-z}
 }
