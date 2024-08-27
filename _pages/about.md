@@ -24,9 +24,8 @@ social: true # includes social icons at the bottom of the page
 
 I received my PhD in Computer Science from DUT, China, where I focused on traffic prediction in urban road networks using deep learning under the supervision of Professor Shen Yanming. Prior to that, I obtained a Master’s degree with a major in Electronic Information & Communication Engineering from HUST, China. My research focuses on the intersection of time series analysis and spatio-temporal data mining, with a particular emphasis on developing and applying advanced DL techniques into ITS.
 
-Research Interests
+## Research Interests
 I am particularly interested in exploring the potential of reinforcement learning and generative AI for addressing complex challenges in time series and traffic domains. My current areas of investigation include:
-
-Time Series Analysis: Foundation models, generation, forecasting and classification techniques.
-Spatio-Temporal Data Mining: Representation learning and AI applications in ITS.
-Multimodal Learning and Alignment: Time series LLMs and Generative models.
+1. Time Series Analysis: Foundation models, generation, forecasting and classification techniques.
+2. Spatio-Temporal Data Mining: Representation learning and AI applications in ITS.
+3. Multimodal Learning and Alignment: Time series LLMs and Generative models.
