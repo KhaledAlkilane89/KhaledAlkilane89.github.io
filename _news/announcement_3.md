@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2024-07-15 07:59:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+:dizzy: A papper accepted at [Information Fusion](https://www.sciencedirect.com/science/article/abs/pii/S1566253524003671)
