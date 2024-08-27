@@ -18,8 +18,15 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+👨🏻‍💻 I’m a Postdoctoral Research Fellow at Zhejiang University-University of Illinois Urbana-Champaign (ZJU-UIUC), working with Professor Der-Horng Lee on deep learning and intelligent transportation systems (ITS).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+🔬 I specialize in ML/DL for traffic and time series analysis, with a current focus on RL and generative AI.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I received my PhD in Computer Science from DUT, China, where I focused on traffic prediction in urban road networks using deep learning under the supervision of Professor Shen Yanming. Prior to that, I obtained a Master’s degree with a major in Electronic Information & Communication Engineering from HUST, China. My research focuses on the intersection of time series analysis and spatio-temporal data mining, with a particular emphasis on developing and applying advanced DL techniques into ITS.
+
+Research Interests
+I am particularly interested in exploring the potential of reinforcement learning and generative AI for addressing complex challenges in time series and traffic domains. My current areas of investigation include:
+
+Time Series Analysis: Foundation models, generation, forecasting and classification techniques.
+Spatio-Temporal Data Mining: Representation learning and AI applications in ITS.
+Multimodal Learning and Alignment: Time series LLMs and Generative models.
