@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our papper has been accepted for publication in [Knowledge-Based Systems](https://www.sciencedirect.com/science/article/abs/pii/S0950705122004804). :rocket:
+Our papper has been accepted for publication in [Knowledge-Based Systems](https://www.sciencedirect.com/science/article/abs/pii/S0950705122004804). :fire:

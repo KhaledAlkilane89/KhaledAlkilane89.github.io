@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We have submitted a paper to IEEE Transactions on Intelligent Transportation Systems (IEEE-T-ITS). :snowflake:
+We have submitted a paper to [IEEE Transactions on Intelligent Transportation Systems](https://ieee-itss.org/pub/t-its/). :snowflake:

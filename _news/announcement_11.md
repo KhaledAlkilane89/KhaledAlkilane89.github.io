@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We have submitted two papers to AAAI 2025 :fire:.
+We have submitted two papers to [AAAI-2025](https://aaai.org/conference/aaai/aaai-25/) :rocket:.
