@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-:dizzy: Our papper has been accepted for publication in [Information Fusion](https://www.sciencedirect.com/science/article/abs/pii/S1566253524003671).
+:dizzy: Our papper has been accepted for publication in [Information Fusion](https://www.sciencedirect.com/science/article/abs/pii/S1566253524003671). :rocket:

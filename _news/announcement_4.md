@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our papper has been accepted for publication in  [IJCNN 2023](https://ieeexplore.ieee.org/abstract/document/10191875).
+Our papper has been accepted for publication in  [IJCNN 2023](https://ieeexplore.ieee.org/abstract/document/10191875). :ghost:
