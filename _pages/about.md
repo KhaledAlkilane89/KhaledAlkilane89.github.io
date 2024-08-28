@@ -18,7 +18,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
- Hi! :wave: :raising_hand:
+ Hi! :wave: 
  I'm a Postdoctoral Research Fellow at Zhejiang University-University of Illinois Urbana-Champaign ([ZJU-UIUC](https://zjui.illinois.edu/)), working with Professor [Der-Horng Lee](https://scholar.google.com/citations?user=6x6z65IAAAAJ&hl=en) on deep learning and intelligent transportation systems (ITS).
 
 👨🏻‍💻 I specialize in ML/DL for traffic and time series analysis, with a current focus on RL and generative AI.
