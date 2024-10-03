@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-New paper submitted to ICLR 2025. &#128508;
+New paper submitted to [ICLR 2025](https://iclr.cc/Conferences/2025). &#128508;
